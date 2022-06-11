@@ -1,6 +1,6 @@
 # MAIP Malaria
 
-Antimalarial activity prediction from a consortium of Pharma and not-for-profit organisationsL
+Antimalarial activity prediction from a consortium of Pharma and not-for-profit organisations
 
 | Description | Input  | Output  | Training Data | Experimental Validation |
 | ------- | --- | --- | --- | --- |
