@@ -1,15 +1,25 @@
-# MAIP Malaria
+# Antimalarial activity prediction
 
-Antimalarial activity prediction from a consortium of Pharma and not-for-profit organisationsL
+## Model Identifiers
+- Slug: maip-malaria
+- Ersilia ID: eos2gth
+- Tags: P.Falciparum, malaria, bioactivity
 
-| Description | Input  | Output  | Training Data | Experimental Validation |
-| ------- | --- | --- | --- | --- |
-| Prediction of antimalarial activity | SMILES | EC50 | 7,191,298 compounds | Yes |
+## Model Description
+Prediction of antimalarial activity 
+- Input: SMILES 
+- Output: EC50 
+- Model type: Regression
+- Mode of training: Retrained
+- Training data: 7191298 compounds ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_24/chembl_24_release_notes.txt
+- Experimentally validated: Yes
 
 ## Source code
-This model is published by Bosc, N., Felix, E., Arcila, R. et al. MAIP: a web service for predicting blood‐stage malaria inhibitors. *J Cheminform* 13, 13 (2021). https://doi.org/10.1186/s13321-021-00487-2
+This model is published by Nicolas Bosc, Eloy Felix, Ricardo Arcila, David Mendez, Martin R. Saunders, Darren V. S. Green, Jason Ochoada, Anang A. Shelat, Eric J. Martin, Preeti Iyer, Ola Engkvist, Andreas Verras, James Duffy, Jeremy Burrows, J. Mark F. Gardner & Andrew R. Leach, Journal of Cheminformatics volume 13, Article number: 13 (2021). MAIP: a web service for predicting blood‐stage malaria inhibitors. Received13 July 2020 Accepted: 20 January 2021 Published: 22 February 2021 DOI:https://doi.org/10.1186/s13321-021-00487-2
+- Code: https://www.ebi.ac.uk/chembl/maip/
 
-Code: https://www.ebi.ac.uk/chembl/maip/
+## License
+The GPL-v3 license applies to all parts of the repository that are not externally maintained libraries. This repository uses the externally maintained library "maip", located at `/model` and licensed under a MIT License
 
 ## History
 - Model was downloaded on November 02, 2021 
